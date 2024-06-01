@@ -1,0 +1,194 @@
+.navbar{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hd{
+    font-weight: bolder;
+    padding: 0px;
+    margin: 0px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li{
+    display: inline;
+    float: left;
+}
+li a{
+    display: block;
+    padding: 10px 7px;
+    text-decoration: none;
+    color: black;
+    margin-left: 45px;
+    font-size: 17px;
+    font-weight: bold;
+   
+}
+li a:hover{
+    background-color: royalblue;
+}
+
+
+
+.navbar1{
+    height: 70px;
+    width: 100%;
+    background-image: linear-gradient(to right,orange,purple);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar1 p{
+    color: white;
+    margin-left: 20px;
+}
+.img{
+    height: 600px;
+    width: 100%;
+    background-attachment: fixed;
+}
+.container{
+   height: 200px;
+   width: 100%;
+   background-image: linear-gradient(to right,orange,purple);
+}
+.hh{
+    margin-left: 20%;
+    color: aliceblue;
+    margin-top: 70px;
+    float: left;
+}
+.h1{
+   margin-left: 10%;
+    color: aliceblue;
+    margin-top: 70px;
+    float: left;
+}
+.h2{
+    text-align: center;
+    color: aliceblue;
+    float: left;
+    margin-top: 70px;
+    margin-left: 10%;
+}
+.para{
+    font-size: 12px;
+}
+.container1{
+    height: 500px;
+    width: 100%;
+    background-color:azure;
+}
+.about{
+    margin-left: 10%;
+    color: black;
+    float: left;
+    margin-top: 3%;
+    font-weight: bold;
+}
+.about1{
+    color: black;
+    float: left;
+    margin-top: 2%;
+    margin-right: 40%;
+    margin-left: 10%;
+}
+.aboutp{
+    margin-top: 1%;
+    margin-left: 10%;
+    font-size: 20px;
+    float: left;
+}
+.btn{
+    float: left;
+    border-radius: 12px;
+    padding: 5px;
+    color: whitesmoke;
+    background-image: linear-gradient(to right,orange,purple);
+    margin-right: 60%;
+    margin-left: 10%;
+    margin-top: 2%;
+    font-weight: bold;
+}
+hr{
+    height: 80px;
+    width: 340px;
+    margin-right: 10%;
+    margin-top: 20%;
+    margin-left: 70%;
+    z-index: 1;
+    position: absolute;
+    border: 3px solid #FF6666;
+}
+
+.services{
+    height: 400px;
+    width: 80%;
+    position: relative;
+    /* text-align: center; */
+    margin: auto;
+    background-image: url(images/pic.jpg);
+}
+.ser2{
+    width: 100%;
+    height: auto;
+    justify-content: center;
+}
+
+/* add boxe with good and nice design */
+.ser3{
+    margin-left: 3%;
+    margin-top: 20px;
+    
+    color: black;
+    font-weight: bold;
+    height: 300px;
+    position: relative;
+    width: 300px;
+    display: inline-block;    
+}
+
+.userpic{
+    height: 300px;
+    width: 100%;
+}
+.icon-box{
+    height: 40px;
+    width: 60%;
+    position: absolute;
+    top: 90%;
+    left: 40%;
+    display: flex;
+    background-color: #FF6666;
+}
+.expe{
+    margin-left:10%;
+    font-size: small;
+    color: aliceblue;
+    font-weight: bold;
+}
+.icon-box svg{
+    background-image: linear-gradient(to right,yellow,pink);
+    padding: 14px 14px;
+    text-decoration: none;
+    color: black;
+    margin-top: -2px;
+    margin-left: -14px;
+    font-weight: bold;
+    border-radius: 50%;
+}
+.pic{
+    height: 387px;
+    width: 220px;
+    margin-left: 54%;
+    z-index: 1;
+    position: absolute;
+}
+
